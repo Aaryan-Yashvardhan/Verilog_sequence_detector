@@ -1,0 +1,172 @@
+$date
+	Tue Jun 20 17:28:13 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_Sequence_Detector_Moore_FSM_Verilog $end
+$var wire 1 ! detector_out $end
+$var parameter 32 " CLK_PERIOD $end
+$var reg 1 # clock $end
+$var reg 1 $ reset $end
+$var reg 1 % sequence_in $end
+$scope module uut $end
+$var wire 1 # clock $end
+$var wire 1 $ reset $end
+$var wire 1 % sequence_in $end
+$var parameter 4 & One $end
+$var parameter 4 ' OneZero $end
+$var parameter 4 ( OneZeroZero $end
+$var parameter 4 ) OneZeroZeroOne $end
+$var parameter 4 * Zero $end
+$var reg 4 + current_state [3:0] $end
+$var reg 1 ! detector_out $end
+$var reg 4 , next_state [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b0 *
+b1001 )
+b100 (
+b10 '
+b1 &
+b1010 "
+$end
+#0
+$dumpvars
+b0 ,
+b0 +
+0%
+1$
+0#
+0!
+$end
+#5
+1#
+#10
+0#
+0$
+#15
+1#
+#20
+0#
+#25
+1#
+#30
+0#
+#35
+1#
+#40
+0#
+#45
+1#
+#50
+b1 ,
+0#
+1%
+#55
+b1 +
+1#
+#60
+b10 ,
+0#
+0%
+#65
+b100 ,
+b10 +
+1#
+#70
+b1 ,
+0#
+1%
+#75
+b1 +
+1#
+#80
+b10 ,
+0#
+0%
+#85
+b100 ,
+b10 +
+1#
+#90
+0#
+#95
+b0 ,
+b100 +
+1#
+#100
+b1001 ,
+0#
+1%
+#105
+1!
+b1 ,
+b1001 +
+1#
+#110
+0#
+#115
+0!
+b1 +
+1#
+#120
+b10 ,
+0#
+0%
+#125
+b100 ,
+b10 +
+1#
+#130
+b1 ,
+0#
+1%
+#135
+b1 +
+1#
+#140
+b10 ,
+0#
+0%
+#145
+b100 ,
+b10 +
+1#
+#150
+0#
+#155
+b0 ,
+b100 +
+1#
+#160
+b1001 ,
+0#
+1%
+#165
+1!
+b1 ,
+b1001 +
+1#
+#170
+0#
+#175
+0!
+b1 +
+1#
+#180
+b10 ,
+0#
+0%
+#185
+b100 ,
+b10 +
+1#
+#190
+0#
